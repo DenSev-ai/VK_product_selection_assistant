@@ -1,0 +1,26 @@
+﻿# Секреты — никогда не коммитим
+.env
+.env.*
+# ...кроме шаблона без реальных значений
+!.env.example
+*.secret
+*.key
+*.pem
+node_modules/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE и ОС
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
